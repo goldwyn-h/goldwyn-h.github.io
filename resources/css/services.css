@@ -31,7 +31,7 @@
 .services .bg_wrapper .dummy_text {
     position: relative;
     width: 100%;
-    font-size: 2em;
+    font-size: 4em;
     color: white;
     pointer-events: none;
     user-select: none;
@@ -297,7 +297,7 @@
 .t-box {
     position: relative;
     width: 450px;
-    font-size: 40px;
+    font-size: 60px;
     height: 50px;
     line-height: 70px;
     display: inline-block;
