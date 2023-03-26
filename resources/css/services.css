@@ -16,7 +16,7 @@
 .services .bg_wrapper {
     position: relative;
     transform: skewY(345deg) translateY(-200px);
-    animation: animateColor 10s linear 0s infinite forwards;
+    animation: animateColor 8s linear 0s infinite forwards;
 }
 
 @keyframes animateColor {
@@ -31,7 +31,7 @@
 .services .bg_wrapper .dummy_text {
     position: relative;
     width: 100%;
-    font-size: 4em;
+    font-size: 2em;
     color: white;
     pointer-events: none;
     user-select: none;
@@ -297,12 +297,12 @@
 .t-box {
     position: relative;
     width: 450px;
-    font-size: 60px;
+    font-size: 40px;
     height: 50px;
     line-height: 70px;
     display: inline-block;
     transform-style: preserve-3d;
-    animation: rotate 10s linear 0s infinite forwards;
+    animation: rotate 8s linear 0s infinite forwards;
 }
 
 @keyframes rotate {
