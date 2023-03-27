@@ -31,7 +31,7 @@
 .services .bg_wrapper .dummy_text {
     position: relative;
     width: 100%;
-    font-size: 4em;
+    font-size: 8em;
     color: white;
     pointer-events: none;
     user-select: none;
