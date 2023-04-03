@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="resources/css/home.css" />
         <link rel="stylesheet" href="resources/css/about.css" />
         <link rel="stylesheet" href="resources/css/services.css">
+        <link rel="stylesheet" href="resources/css/portfolio.css" />
+        <link rel="stylesheet" href="resources/css/blog.css" />
         <link rel="stylesheet" href="resources/css/contact.css" />
         <link href="resources/mapbox-gl/mapbox-gl.css" rel="stylesheet" />
         <link rel="stylesheet" href="resources/css/style.css" />
@@ -35,6 +37,8 @@
             <div class="c c2"></div>
             <div class="c c3"></div>
             <div class="c c4"></div>
+            <div class="c c5"></div>
+            <div class="c c6"></div>
         </div>
         <script>
             let loader = document.querySelector(".loader");
@@ -61,9 +65,13 @@
             </h1>
             <ul>
                 <li><a href="#" onclick="home()">home</a></li>
-                <li><a href="#" onclick="about(); animate3.play(); animate4.play();">about</a> </li>
-                <li><a href="#" onclick="services(); animate6.play();">services</a></li> 
-                <li><a href="#" onclick="contact(); animate5.play()">contact</a></li>
+                <li><a href="#" onclick="about(); animate3.play(); animate4.play();">about</a></li>
+                <li><a href="#" onclick="services(); animate6.play();">services</a></li>
+                <li><a href="#" onclick="portfolio()">portfolio</a></li>
+                <li><a href="#" onclick="blog()">blog</a></li>
+                <li>
+                    <a href="#" onclick="contact(); animate5.play()">contact</a>
+                </li>
             </ul>
             <p>&copy; @Goldwyn_Tay.</p>
         </nav>
@@ -95,6 +103,8 @@
                                     <i class="fas fa-envelope"></i>
                                 <a/>
                                 <div class="s-name">Email</div>
+                                    </div>
+                            </div>
                                 <span></span>
                         </div>
                     </div>
@@ -164,8 +174,8 @@
                                 <h1>About me</h1>
                                 <p class="text">
                                     I am a Project Engineer based in Singapore specialized in 
-                                    Project Management. My interest of problem-solving was discovered
-                                    when I enjoy spending hours coming up with effective solutions. 
+                                    Project Management. I discovered that start-up/ business are 
+                                    facing bottleneck a
                                     As an active leader in camps, I am experienced in interacting with people
                                     from different backgrounds. <br> <br>
                                     I am equipped the skills & knowledge to mitigate challenges so that you 
@@ -180,16 +190,11 @@
                     <nav class="about_nav">
                         <ul>
                             <li>
-                                <a class="active" href="#" data-text="one"
-                                    >Skills</a
-                                >
-                            </li>
+                                <a class="active" href="#" data-text="one">Skills</a>  </li>
                             <li>
-                                <a href="#" data-text="two">Experience</a>
-                            </li>
+                                <a href="#" data-text="two">Experience</a> </li>
                             <li>
-                                <a href="#" data-text="three">Education</a>
-                            </li>
+                                <a href="#" data-text="three">Education</a> </li>
                         </ul>
                     </nav>
                     
@@ -303,7 +308,7 @@
                     </section> -->
                     <div class="hero">
                         <span class="typography">
-                            <span class="t_dummy">Basic Virtual Assistant</span> <br />
+                            <span class="t_dummy">Basic Plan</span> <br />
                             <span class="t-box">
                                 <span class="box-side box-front"
                                           >Innovator</span
@@ -333,7 +338,7 @@
                             <i class="far fa-arrow-alt-circle-right"></i>
                         </p>
                     </div>
-                     <h1>Hybrid Virtual Assistant</h1>
+                     <h1>Hybrid Plan</h1>
                      <h2>$750/month</h2>
                     <div class="capabilities right">
                         <p class="c_content">
@@ -349,7 +354,7 @@
                             alt=""
                         />
                     </div>
-                      <h1 align="left">Custom Virtual Assistant</h1>
+                      <h1 align="left">Custom Plan</h1>
                     <div class="capabilities left">
                         <img
                             src="resources/img/elements/seo_bg.png"
@@ -367,7 +372,7 @@
                             <a href="tel:+65 81213390">Learn More</a>
                             <i class="far fa-arrow-alt-circle-right"></i>
                         </p>
-                        </div>
+
                     </div>
                 </div>
             </div>
