@@ -193,19 +193,6 @@ html {
     display: inline-block;
 }
 
-.button {
-    position: relative;
-    display: inline-block;
-    margin: 10px 5px;
-    padding: 15px 20px;
-    font-size: 35px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    outline: none;
-    width: 35%;
-}
 
 .about_nav {
     position: relative;
