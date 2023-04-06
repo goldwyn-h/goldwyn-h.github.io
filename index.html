@@ -30,6 +30,12 @@
             href="resources/img/favicon.ico"
             type="image/x-icon"
         />
+          <script>
+    function services() {
+      // JavaScript function to handle onclick event
+      animate6.play();
+    }
+  </script>
     </head>
     <body onload="loaded()">
         <div class="loader">
@@ -49,6 +55,7 @@
                 }, 1000);
             }
         </script>
+       
         <!-- HAMBURGER MENU BUTTON (responsively visible) -->
         <div class="hamburger">
             <div class="bar1"></div>
@@ -76,6 +83,16 @@
                 <li><a href="#Contact" onclick="contact(); animate5.play()">contact</a>
                 </li>
             </ul>
+            <script>
+    // JavaScript code to scroll to "Service" container automatically when page loads
+    window.onload = function() {
+      if (window.location.hash === "#Service") {
+        // If URL has "#Service" hash, trigger the services() function
+        services();
+        animate6.play();
+      }
+    };
+  </script>
             <p>&copy; @Goldwyn_Tay.</p>
         </nav>
 
