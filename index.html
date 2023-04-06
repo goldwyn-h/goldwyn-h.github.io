@@ -30,12 +30,6 @@
             href="resources/img/favicon.ico"
             type="image/x-icon"
         />
-          <script>
-    function services() {
-      // JavaScript function to handle onclick event
-      animate6.play();
-    }
-  </script>
     </head>
     <body onload="loaded()">
         <div class="loader">
@@ -82,16 +76,11 @@
                 <li><a href="#Service" onclick="services(); animate6.play();">services</a></li> 
                 <li><a href="#Contact" onclick="contact(); animate5.play()">contact</a>
                 </li>
+                <div id="services" class="layer layer3"></div>
             </ul>
-            <script>
-    // JavaScript code to scroll to "Service" container automatically when page loads
-    window.onload = function() {
-      if (window.location.hash === "#Service") {
-        // If URL has "#Service" hash, trigger the services() function
-        services();
-        animate6.play();
-      }
-    };
+  <script>
+    // JavaScript code to scroll to Container 2 automatically
+    window.location.hash = "services";
   </script>
             <p>&copy; @Goldwyn_Tay.</p>
         </nav>
