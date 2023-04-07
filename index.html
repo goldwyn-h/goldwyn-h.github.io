@@ -76,7 +76,7 @@
                 <li><a href="#Contact" onclick="contact(); animate5.play()">contact</a>
                 </li>
             </ul>
-          
+           <a href="#Service">services</a>
             <p>&copy; @Goldwyn_Tay.</p>
         </nav>        
         <div class="container">
@@ -108,7 +108,6 @@
                                 <a/>
                                 <div class="s-name">Email</div>
                                     </div>
-                                <a href="https://goldwyn-h.github.io/#Service">services</a>
                        
                         </div>
                     </div>
@@ -336,7 +335,7 @@
                         
                 </div>
                     <h1 align="left">Basic Virtual Assistant</h1>
-                        <h2 align="left">&nbsp;$500/month</h2>
+                        <h2 align="left">&nbsp;$549/month</h2>
                     </p>
                     <div class="capabilities left move-little-down">
                         <img src="resources/img/elements/web_bg.png" alt="" />
@@ -351,12 +350,12 @@
                         </p>
                     </div>
                      <h1>Hybrid Virtual Assistant</h1>
-                            <h2>$750/month</h2>
+                            <h2>$799/month</h2>
                     <div class="capabilities right">
                         <p class="c_content">
                             <span class="c_title">Hybrid</span>
                          +&nbsp;Basic Virtual Assistant <br>
-                             +&nbsp;Creation of Basic Content for Social Medias      
+                             +&nbsp;Weekly creation of Basic Content for Social Medias      
                             <br />
                             <a href="#">Learn More</a>
                             <i class="far fa-arrow-alt-circle-right"></i>
@@ -1034,6 +1033,22 @@
             }
             resize();
             window.addEventListener("resize", resize);
+            <!-- JavaScript code to detect hash fragment and trigger onclick function -->
+<script>
+// Wait for the document to finish loading
+document.addEventListener("DOMContentLoaded", function() {
+  // Check if the hash fragment matches the desired value
+  if (window.location.hash === '#Service') {
+    // Call your onclick function here
+    yourOnclickFunction();
+  }
+});
+
+// Define your onclick function
+function yourOnclickFunction() {
+  // Your onclick function code here
+  console.log('Onclick function triggered via URL');
+}
         </script>
     </body>
 </html>
