@@ -29,26 +29,6 @@
             rel="shortcut icon"
             href="resources/img/favicon.ico"
             type="image/x-icon"
-       <script>
-    window.onload = function() {
-      // Check if URL has hash fragment
-      if (window.location.hash) {
-        // Get the hash fragment from URL
-        var hash = window.location.hash.substr(1);
-        // Call the corresponding function based on the hash fragment
-        if (hash === "Service") {
-          services();
-          animate6.play();
-        }
-        if (hash === "Home") {
-          home();
-        }
-        if (hash ==="About"){
-        about(); animate3.play(); animate4.play();
-        }
-      }
-    };
-  </script>
         />
     </head>
     <body onload="loaded()">
@@ -87,8 +67,7 @@
             <ul>
                 <li><a href="#Home" onclick="home()">home</a></li>
                 <li>
-                    <a
-                        href="#About"
+                    <a href="#About"
                         onclick="about(); animate3.play(); animate4.play();"
                         >about</a
                     >
@@ -134,6 +113,7 @@
                                 <a/>
                                 <div class="s-name">Email</div>
                                     </div>
+                                <a href="https://goldwyn-h.github.io/#Service">services</a>
                        
                         </div>
                     </div>
